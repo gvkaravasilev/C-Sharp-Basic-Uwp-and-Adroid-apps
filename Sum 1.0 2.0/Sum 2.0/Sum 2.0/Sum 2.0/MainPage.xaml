@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sum_2._0.MainPage">
+
+    <!-- Sum 2.0-->
+
+    <StackLayout Padding="20">
+        <Label Text="Sum 2.0" FontSize="Large"/>
+
+        <Label Text="A="/>
+        <Entry x:Name ="inputA" Keyboard="Numeric"/>
+        <Label Text="B="/>
+        <Entry x:Name ="inputB" Keyboard="Numeric"/>
+
+        <Label Text="A+B="/>
+        <Entry x:Name = "Sum" Keyboard="Numeric"/>
+
+        <Button Text="Calculate" Clicked="Button_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>

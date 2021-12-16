@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Fibonacci_2._0.MainPage">
+
+    <!-- UI of Fibonacci 2.0 App-->
+
+    <StackLayout Padding="20">
+
+        <Label Text="Fibonacci 2.0" FontSize="Large"/>
+        <Label Text="Limit" FontSize="Large" />
+        <Entry x:Name="LimitField" Keyboard="Numeric" Text="1000"/>
+        <ListView x:Name="FibList"/>
+        <Button Text="Generate" Clicked="Button_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>

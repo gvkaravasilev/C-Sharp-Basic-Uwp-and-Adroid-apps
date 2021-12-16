@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.31911.260
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON Reader 2.0.Android", "JSON Reader 2.0\JSON Reader 2.0.Android\JSON Reader 2.0.Android.csproj", "{8530512F-92E8-4DF8-9CE1-F2069F0FC36A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSON Reader 2.0", "JSON Reader 2.0\JSON Reader 2.0\JSON Reader 2.0.csproj", "{9F85C8A0-EFB9-476F-A103-6CC6FEF8AD7A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8530512F-92E8-4DF8-9CE1-F2069F0FC36A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8530512F-92E8-4DF8-9CE1-F2069F0FC36A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8530512F-92E8-4DF8-9CE1-F2069F0FC36A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8530512F-92E8-4DF8-9CE1-F2069F0FC36A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8530512F-92E8-4DF8-9CE1-F2069F0FC36A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8530512F-92E8-4DF8-9CE1-F2069F0FC36A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9F85C8A0-EFB9-476F-A103-6CC6FEF8AD7A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F85C8A0-EFB9-476F-A103-6CC6FEF8AD7A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F85C8A0-EFB9-476F-A103-6CC6FEF8AD7A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9F85C8A0-EFB9-476F-A103-6CC6FEF8AD7A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F85C8A0-EFB9-476F-A103-6CC6FEF8AD7A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F85C8A0-EFB9-476F-A103-6CC6FEF8AD7A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5EB6652-390E-46F0-9072-15A01453E61A}
+	EndGlobalSection
+EndGlobal

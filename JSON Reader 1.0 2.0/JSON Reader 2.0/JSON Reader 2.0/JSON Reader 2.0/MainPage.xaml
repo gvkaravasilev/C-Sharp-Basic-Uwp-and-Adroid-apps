@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="JSON_Reader_2._0.MainPage">
+    <StackLayout Padding="20" BackgroundColor="LightBlue">
+
+       
+        <Label Text="JSON Reader 2.0" FontSize="Large" />
+
+        <Button Text="Tell Me Joke" Clicked="Button_Clicked" />
+        
+        <ScrollView>
+            <Label x:Name="Joke" />
+        </ScrollView>
+    </StackLayout>
+
+</ContentPage>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="RSS_Reader_2._0.MainPage">
+
+    <StackLayout Padding="20" BackgroundColor="LightPink">
+
+        <Label Text="RSS Reader 2.0" FontSize="Large"/>
+
+        <Entry x:Name="URI" Text="https://www.minchev.eu/feed/"/>
+        <Button Text="Download" Clicked="Button_Clicked"/>
+
+
+        <ListView x:Name="RSS">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <local:HyperlinkButton Text="{Binding Title}" Detail="{Binding PubDate}" Url="{Binding Link}" />
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+    </StackLayout>
+
+</ContentPage>
